@@ -119,8 +119,32 @@ container-1 {
         color: #FFFFFF;
     }
     
+/*-------------------------- Diseño inicial Responsive --------------------------*/
+
+    @media screen and (max-width: 980px){
+      #contenedor{
+          width: 80%;
+      }
+      #contenido{
+          width: 50%;
+      }
+      #barra_lateral{
+          width:30%;
+      }
+  }
 
 
+  @media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
 
 
  
